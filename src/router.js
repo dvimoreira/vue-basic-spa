@@ -7,8 +7,8 @@ import RouteAdmin from './routes/admin'
 Vue.use(Router)
 
 let arrayRoutes = [
-  ...RouteAdmin,
-  ...RouteAuth
+  ...RouteAuth,
+  ...RouteAdmin
 ]
 
 const router = new Router({

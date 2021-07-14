@@ -1,6 +1,6 @@
 <template>
-    <div id="page-dashboard">
-        <dvi-header icon="fas fa-tachometer-alt" title="Dashboard"></dvi-header>
+    <div id="page-dashboard" class="content-page">
+        <sejavisto-header title="Bem vindo ao painel administrativo."></sejavisto-header>
     </div>
 </template>
 

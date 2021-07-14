@@ -12,7 +12,7 @@
             </div>
 
             <div class="text-center">                
-                <button class="primary-button" v-on:click="onLogin()">Fazer Login</button>
+                <button class="btn-auth" v-on:click="onLogin()">Fazer Login</button>
                 <br>
                 <router-link :to="{ name: 'auth.reset-password' }" class="reset-password">Esqueci minha senha</router-link>
             </div>

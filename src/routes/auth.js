@@ -1,11 +1,11 @@
 export default [
   {
-    path: '/auth',
+    path: '/',
     component: () => import(/* webpackChunkName: "template-unauthenticated" */ './../layouts/Unauthenticated.vue'),
     meta: { auth: false },
     children: [
       {
-        path: 'login',
+        path: '',
         name: 'auth.login',
         component: () => import(/* webpackChunkName: "login" */ './../views/auth/Login.vue'),
         meta: { auth: false }

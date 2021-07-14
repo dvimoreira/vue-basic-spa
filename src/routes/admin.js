@@ -1,6 +1,6 @@
 export default [
   {
-    path: '/admin',
+    path: '/painel',
     component: () => import(/* webpackChunkName: "autenticated" */ './../layouts/Authenticated.vue'),
     meta: { auth: true },
     children: [

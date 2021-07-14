@@ -7,7 +7,7 @@
             </div>
 
             <div class="text-center">
-                <button class="primary-button" v-on:click="onSubmit()">Resetar Senha</button>
+                <button class="btn-auth" v-on:click="onSubmit()">Resetar Senha</button>
                 <br>
                 <router-link :to="{ name: 'auth.login' }" class="reset-password">Fazer Login</router-link>
             </div>

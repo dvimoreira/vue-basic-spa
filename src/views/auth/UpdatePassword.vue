@@ -7,7 +7,7 @@
             </div>
 
             <div class="text-center">
-                <button class="primary-button" v-on:click="onSubmit()">Redefinir Senha</button>
+                <button class="btn-auth" v-on:click="onSubmit()">Redefinir Senha</button>
             </div>
         </div>
 

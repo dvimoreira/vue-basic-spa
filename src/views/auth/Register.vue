@@ -22,7 +22,7 @@
             </div>
 
             <div class="text-center">        
-                <button class="primary-button" v-on:click="onRegister()">Cadastrar</button>
+                <button class="btn-auth" v-on:click="onRegister()">Cadastrar</button>
                 <br>
                 <router-link :to="{ name: 'auth.login' }" class="reset-password">Fazer login</router-link>
             </div>
